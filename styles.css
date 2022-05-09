@@ -81,6 +81,9 @@ footer{
 
 
 @media only screen and (max-width: 760px) {
+    h1 {
+        font-size: 32px;
+    }
     .hero ul {
         display: block;
     }
@@ -89,11 +92,12 @@ footer{
         padding-bottom: 10px;
         border-bottom: 1px solid white;
     }
-    .hero ul li:nth-child() {
-        border-bottom: 0px solid white;
+    .hero ul li:last-child {
+        border-bottom: none;
     }
     h2 {
         border-bottom: none;
         padding-bottom: 0;
+        font-size: 24px;
     }
 }
